@@ -27,5 +27,3 @@ target = 0
 
 obj = Solution()
 print(obj.twoSum(nums, target))
-
-from ctypes import *

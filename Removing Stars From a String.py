@@ -8,6 +8,7 @@ class Solution:
                 out.append(char)
         return ''.join(out)
 
+
 s = "erase****"
 
 obj = Solution()

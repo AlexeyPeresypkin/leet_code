@@ -23,10 +23,6 @@ class Solution:
         else:
             return float(merged[len(merged) // 2] + merged[len(merged) // 2 - 1]) / 2
 
-        # meridian = len(merged) // 2
-        # print(meridian)
-        # print(merged)
-
 
 obj = Solution()
 nums1 = [1, 3]
