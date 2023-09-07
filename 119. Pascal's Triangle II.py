@@ -1,14 +1,6 @@
 from typing import List
 
 
-# l = [1, 8, 28, 56, 70, 56, 28, 8, 1]
-
-# for i in range(len(l)-1):
-#     l_new = [l[i]+l[i+1] for i in range(len(l)-1)]
-# l_new = [l[i] + l[i + 1] for i in range(len(l) - 1)]
-# print(l_new)
-
-
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         if rowIndex < 2:
