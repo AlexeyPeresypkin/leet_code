@@ -21,5 +21,3 @@ class Solution:
             visited.add(next_node)
             next_node = next_node.next
         return False
-
-
