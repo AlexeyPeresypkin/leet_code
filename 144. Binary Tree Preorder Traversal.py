@@ -22,14 +22,6 @@ root1 = TreeNode(1, root2, root3)
 
 class Solution(object):
 
-    def recursive_func(self, tree_node: TreeNode):
-        if tree_node.left:
-            print(tree_node.left.val)
-            self.preorderTraversal(tree_node.left)
-        if tree_node.right:
-            print(tree_node.right.val)
-            self.preorderTraversal(tree_node.right)
-
     def preorderTraversal(self, root: TreeNode):
         """recursive"""
         def recursive_func(tree_node: TreeNode):
